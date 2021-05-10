@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Kaushan Script";
+    src: url(../font/KaushanScript/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family:"Montserrat-Regular"; 
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family:"Montserrat-Bold"; 
+    src: url(../font/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:"Roboto-Regular"; 
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Roboto"; 
+    src: url(../font/Roboto/Roboto-LightItalic.ttf);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0!important;
+}
+
+body {
+    font-family:"Montserrat-Regular";
+    font-size: 15px;
+    margin: auto;
+    color: #4a4a4a!important;
+    
+}
+header .home {
+    background-color: #3B3B98;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header .navbar-brand {
+    margin-left: -180px;
+}
+header .navbar-dark .navbar-brand img{
+    width: 220px;
+}
+.emphasized-phrase {
+    font-family: "Montserrat-Bold";
+}
+.menu-item, .title {
+    font-family: "Montserrat-Regular";
+    font-size: 13px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header .navbar-dark .navbar-nav .nav-item {
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}   
+header .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    line-height: 15px;
+    position: relative;
+}
+header .navbar-dark .navbar-nav .nav-link:hover, header .navbar-dark .navbar-nav .nav-link.active {
+    color: #fbb03b;
+}
+header .navbar-dark .navbar-nav .nav-link:hover::before, header .navbar-dark .navbar-nav .nav-link.active::before {
+    width: calc(100% - 1rem);
+}
+header .active, .accordion:hover {
+    background-color: inherit;
+}
+
+header .navbar-dark .navbar-nav .nav-link::before {
+    content: "";
+    width: 0;
+    bottom: -8px;
+    border-top: 3px solid #fbb03b;
+    position: absolute;
+    transition: .3s ease-in-out;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.banner {
+    background-color:#fbb03b;
+    margin-left: -190px;
+    margin-right: -190px;
+    height: 230px;
+    overflow-y: hidden;
+    box-shadow: 0 4px 3px rgba(10, 10, 10, 0.1);
+}
+.title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 4;
+}
+
+.input {
+    width: 100%;
+    color: #fbb03b;
+    border-color: #fbb03b;
+    border-width: 1px;
+    border-style: inset;
+}
+/*header*/
+
+
+.
+
+
+
